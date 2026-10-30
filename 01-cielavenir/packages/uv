@@ -7,4 +7,4 @@ if [ "${ACTION}" != "prettylist" ]; then
 fi
 PRETTY_NAME="uv"
 WEBSITE="https://deb.griffo.io/install-latest-uv-in-debian.html"
-SUMMARY="uv"
+SUMMARY="uv python package manager"
