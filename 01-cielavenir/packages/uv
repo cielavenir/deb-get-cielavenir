@@ -3,7 +3,7 @@ ARCHS_SUPPORTED="amd64 arm64 armel armhf i386 ppc64el riscv64 s390x"
 get_github_releases "dariogriffo/uv-debian" "latest"
 if [ "${ACTION}" != "prettylist" ]; then
     URL=$(grep -m 1 "browser_download_url.*${HOST_ARCH}\.deb\"" "${CACHE_FILE}" | cut -d '"' -f 4)
-    VERSION_PUBLISHED=$(cut -d '/' -f 8 <<< "${URL/\%2B/-}")
+    VERSION_PUBLISHED=$(cut -d '/' -f 8 <<< "${URL/\%2B/-}")~griffo
 fi
 PRETTY_NAME="uv"
 WEBSITE="https://deb.griffo.io/install-latest-uv-in-debian.html"
