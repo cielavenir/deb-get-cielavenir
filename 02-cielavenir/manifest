@@ -1,4 +1,5 @@
 https://raw.githubusercontent.com/cielavenir/deb-get-cielavenir/master/02-cielavenir
+deno
 eza
 #fzf  # supported by 01-main
 #k9s  # supported by 01-main
